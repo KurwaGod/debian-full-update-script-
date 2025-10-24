@@ -23,5 +23,5 @@ sudo apt clean
 echo "system update complete."
 
 if [ -f /var/run/reboot-required ]; then
-    echo "u should do a as is recommended to fully apply changes."
+    echo "u should reboot as is recommended to fully apply changes."
 fi
